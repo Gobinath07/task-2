@@ -1,0 +1,141 @@
+*{
+   margin:0;
+   padding:0;
+   box-sizing: border-box; 
+}
+html,body{
+    height:100%;
+    overflow:hidden;
+}
+
+.carousel{
+    height:100%;
+}
+
+.carousel-inner{
+    height:100%;
+}
+.carousel .carousel-item{
+    height:100%;
+}
+
+.first{
+    height:60%;
+    background-color: aquamarine;
+}
+.second{
+    height:40%;
+    background-color:blue;
+    color:white;
+    justify-content:start;
+}
+
+.text-1{
+    padding-top:60px;
+    margin-left: 20px;
+    font-weight:600;
+}
+
+.img-2-1{
+width:50%;
+height:300px;
+position: absolute;
+bottom:40%;
+
+    margin-left:-10px;
+    object-fit: cover;
+    object-position: 10% 90px;
+   
+    
+    
+
+    
+}
+.img-2-2 {
+width:50%;
+    position: absolute;
+margin-top: -15px;
+    height: 300px;
+    margin-left: 180px;
+    object-fit: cover;
+    object-position: 0 100%;
+}
+
+.pizza{
+    width:80px;
+ height:30px;
+ object-fit: cover;
+ 
+    position: absolute;
+    top: 0;
+    left:0;
+}
+
+.vemi-1{
+    width:180px;
+    position: absolute;
+    top:0;
+    left:180px;
+
+}
+.vemi-2{
+    position: absolute;
+    width:180px;
+    bottom:40%;
+    
+}
+
+.five-1{
+width:40%;
+height:300px;
+position: absolute;
+top:-100px;
+
+}
+.five-2{
+width:40%;
+height:50%;
+position: absolute;
+bottom:40%;
+left:0px;
+object-fit: cover;
+object-position:25% 130px;
+}
+.five-3{
+    position: absolute;
+width:45%;
+height:50%;
+left:40%;
+margin-top:-15px;
+
+}
+
+.five-4
+{
+width:45%;
+margin-left: 40%;
+height:140px;
+position: absolute;
+object-fit: cover;
+object-position:25% 60px;
+bottom:40%;
+}
+.five-5{
+width:40%;
+height:300px;
+position: absolute;
+left:81%;
+
+
+bottom:40%;
+}
+
+.six{
+position: relative;
+
+width:100%;
+    height:100%;
+    left:-40px;
+
+   
+}
